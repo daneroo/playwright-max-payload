@@ -2,7 +2,7 @@
 
 The maximum length of a string parameter to page.evaluate(fn,stringArg) is 100MiB
 
-`tl;dr``
+`tl;dr`
 
 This was to answer my own question on the Playwright discord.
 <https://discord.com/channels/807756831384403968/1159616073059016705/1159616073059016705>
