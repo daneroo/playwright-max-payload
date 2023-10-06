@@ -17,18 +17,12 @@ pnpm start
 
 ```txt
 Hello Playwright payload maximizing tester!
-roundTripSize Success: 103809024 == 103809024 bytes 99.00 == 99.00 MiB
-roundTripSize Success: 103911424 == 103911424 bytes 99.10 == 99.10 MiB
-roundTripSize Success: 104013824 == 104013824 bytes 99.20 == 99.20 MiB
-roundTripSize Success: 104116224 == 104116224 bytes 99.29 == 99.29 MiB
-roundTripSize Success: 104218624 == 104218624 bytes 99.39 == 99.39 MiB
-roundTripSize Success: 104321024 == 104321024 bytes 99.49 == 99.49 MiB
-roundTripSize Success: 104423424 == 104423424 bytes 99.59 == 99.59 MiB
-roundTripSize Success: 104525824 == 104525824 bytes 99.68 == 99.68 MiB
-roundTripSize Success: 104628224 == 104628224 bytes 99.78 == 99.78 MiB
-roundTripSize Success: 104730624 == 104730624 bytes 99.88 == 99.88 MiB
-roundTripSize Success: 104833024 == 104833024 bytes 99.98 == 99.98 MiB
-roundTripSize Failure: 104935424 bytes 100.07421875 MiB
+roundTripSize Success: 104852480 == 104852480 bytes 99.9951 == 99.9951 MiB
+roundTripSize Success: 104853504 == 104853504 bytes 99.9961 == 99.9961 MiB
+roundTripSize Success: 104854528 == 104854528 bytes 99.9971 == 99.9971 MiB
+roundTripSize Success: 104855552 == 104855552 bytes 99.9980 == 99.9980 MiB
+roundTripSize Success: 104856576 == 104856576 bytes 99.9990 == 99.9990 MiB
+roundTripSize Failure: 104857600 bytes 100 MiB
 Error: page.evaluate: Target closed
 ```
 

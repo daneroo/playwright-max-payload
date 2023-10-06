@@ -16,7 +16,10 @@ async function main() {
 
   const kiB = 1024;
   const MiB = kiB * kiB;
-  for (let size = 99 * MiB; size <= 101 * MiB; size += 100 * kiB) {
+  const start = 100 * MiB - 5 * kiB;
+  const end = 100 * MiB + 5 * kiB;
+  const increment = 1 * kiB;
+  for (let size = start; size <= end; size += increment) {
     try {
       const roundTripSize = await trySize(size, browser);
       console.log(
@@ -36,7 +39,7 @@ async function main() {
 }
 
 function toMiB(bytes) {
-  return (bytes / 1024 / 1024).toFixed(2);
+  return (bytes / 1024 / 1024).toFixed(4);
 }
 
 async function trySize(size, browser) {
