@@ -11,6 +11,7 @@ This was to answer my own question on the Playwright discord.
 
 ```sh
 pnpm install
+pnpm exec playwright install
 pnpm start
 ```
 
